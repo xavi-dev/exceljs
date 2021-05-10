@@ -1604,7 +1604,7 @@ export interface Media {
 export interface Address {
 	sheetName?: string;
 	address: string;
-	col: string;
+	col: number;
 	row: string;
 	$col$row: string;
 }
